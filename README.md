@@ -77,16 +77,16 @@ public class ExampleBenchmark
 ```text
 | Method            | Iterations | Mean         | Error      | StdDev     | Allocated |
 |------------------ |----------- |-------------:|-----------:|-----------:|----------:|
-| IterateList       | 10         |     5.127 ns |  0.1289 ns |  0.1266 ns |         - |
-| IterateHashSet    | 10         |     8.254 ns |  0.0490 ns |  0.0458 ns |         - |
-| IterateDictionary | 10         |     7.585 ns |  0.0138 ns |  0.0115 ns |         - |
-| IterateList       | 100        |    42.976 ns |  0.1372 ns |  0.1283 ns |         - |
-| IterateHashSet    | 100        |    81.874 ns |  0.2449 ns |  0.2171 ns |         - |
-| IterateDictionary | 100        |    68.762 ns |  0.2512 ns |  0.2227 ns |         - |
-| IterateList       | 1000       |   366.145 ns |  1.2316 ns |  1.0285 ns |         - |
-| IterateHashSet    | 1000       |   739.421 ns |  1.3844 ns |  1.2949 ns |         - |
-| IterateDictionary | 1000       |   626.357 ns |  1.7643 ns |  1.4732 ns |         - |
-| IterateList       | 10000      | 3,593.486 ns |  6.6263 ns |  5.5332 ns |         - |
-| IterateHashSet    | 10000      | 7,324.924 ns | 14.0024 ns | 12.4127 ns |         - |
-| IterateDictionary | 10000      | 7,203.216 ns | 11.1919 ns |  9.9214 ns |         - |
+| IterateList       | 10         |     4.972 ns |  0.0219 ns |  0.0194 ns |         - |
+| IterateHashSet    | 10         |     8.276 ns |  0.0502 ns |  0.0470 ns |         - |
+| IterateDictionary | 10         |     7.613 ns |  0.0776 ns |  0.0606 ns |         - |
+| IterateList       | 100        |    42.999 ns |  0.1308 ns |  0.1159 ns |         - |
+| IterateHashSet    | 100        |    81.426 ns |  0.3933 ns |  0.3679 ns |         - |
+| IterateDictionary | 100        |    76.505 ns |  0.1195 ns |  0.0998 ns |         - |
+| IterateList       | 1000       |   363.505 ns |  0.3225 ns |  0.2859 ns |         - |
+| IterateHashSet    | 1000       |   737.644 ns |  3.6676 ns |  3.4306 ns |         - |
+| IterateDictionary | 1000       |   622.941 ns |  1.3246 ns |  1.1742 ns |         - |
+| IterateList       | 10000      | 3,582.336 ns |  7.1044 ns |  5.5467 ns |         - |
+| IterateHashSet    | 10000      | 7,297.675 ns | 33.8668 ns | 31.6790 ns |         - |
+| IterateDictionary | 10000      | 7,187.029 ns | 32.3456 ns | 30.2561 ns |         - |
 ```
